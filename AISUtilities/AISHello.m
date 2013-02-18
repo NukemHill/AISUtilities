@@ -14,5 +14,9 @@
 	return @"Hello, world!";
 }
 
+- (NSString *)goodbye {
+	return @"Goodbye!";
+}
+
 
 @end

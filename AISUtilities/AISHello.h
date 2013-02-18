@@ -12,4 +12,6 @@
 
 - (NSString *) hello;
 
+- (NSString *) goodbye;
+
 @end
