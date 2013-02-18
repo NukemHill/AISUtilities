@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		A4B37FFD16D2AC7A00369C55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B37FFC16D2AC7A00369C55 /* Foundation.framework */; };
-		A4B3800216D2AC7A00369C55 /* AISUtilities.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A4B3800116D2AC7A00369C55 /* AISUtilities.h */; };
-		A4B3800416D2AC7A00369C55 /* AISUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B3800316D2AC7A00369C55 /* AISUtilities.m */; };
 		A4B3800C16D2AC7A00369C55 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B3800B16D2AC7A00369C55 /* SenTestingKit.framework */; };
 		A4B3800E16D2AC7A00369C55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B3800D16D2AC7A00369C55 /* UIKit.framework */; };
 		A4B3800F16D2AC7A00369C55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B37FFC16D2AC7A00369C55 /* Foundation.framework */; };
 		A4B3801216D2AC7A00369C55 /* libAISUtilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B37FF916D2AC7900369C55 /* libAISUtilities.a */; };
 		A4B3801816D2AC7A00369C55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4B3801616D2AC7A00369C55 /* InfoPlist.strings */; };
 		A4B3801B16D2AC7A00369C55 /* AISUtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B3801A16D2AC7A00369C55 /* AISUtilitiesTests.m */; };
+		A4B3802816D2AF1300369C55 /* AISHello.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B3802616D2AF1300369C55 /* AISHello.m */; };
+		A4B3802916D2AF9200369C55 /* AISUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B3800116D2AC7A00369C55 /* AISUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4B3802A16D2AF9200369C55 /* AISHello.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B3802516D2AF1300369C55 /* AISHello.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,6 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				A4B3800216D2AC7A00369C55 /* AISUtilities.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,7 +46,6 @@
 		A4B37FFC16D2AC7A00369C55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A4B3800016D2AC7A00369C55 /* AISUtilities-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AISUtilities-Prefix.pch"; sourceTree = "<group>"; };
 		A4B3800116D2AC7A00369C55 /* AISUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AISUtilities.h; sourceTree = "<group>"; };
-		A4B3800316D2AC7A00369C55 /* AISUtilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AISUtilities.m; sourceTree = "<group>"; };
 		A4B3800A16D2AC7A00369C55 /* AISUtilitiesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AISUtilitiesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B3800B16D2AC7A00369C55 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		A4B3800D16D2AC7A00369C55 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -54,6 +53,8 @@
 		A4B3801716D2AC7A00369C55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A4B3801916D2AC7A00369C55 /* AISUtilitiesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AISUtilitiesTests.h; sourceTree = "<group>"; };
 		A4B3801A16D2AC7A00369C55 /* AISUtilitiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AISUtilitiesTests.m; sourceTree = "<group>"; };
+		A4B3802516D2AF1300369C55 /* AISHello.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISHello.h; sourceTree = "<group>"; };
+		A4B3802616D2AF1300369C55 /* AISHello.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISHello.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				A4B3800116D2AC7A00369C55 /* AISUtilities.h */,
-				A4B3800316D2AC7A00369C55 /* AISUtilities.m */,
+				A4B3802516D2AF1300369C55 /* AISHello.h */,
+				A4B3802616D2AF1300369C55 /* AISHello.m */,
 				A4B37FFF16D2AC7A00369C55 /* Supporting Files */,
 			);
 			path = AISUtilities;
@@ -147,6 +149,18 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		A4B3802416D2AE7300369C55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B3802916D2AF9200369C55 /* AISUtilities.h in Headers */,
+				A4B3802A16D2AF9200369C55 /* AISHello.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		A4B37FF816D2AC7900369C55 /* AISUtilities */ = {
 			isa = PBXNativeTarget;
@@ -155,6 +169,7 @@
 				A4B37FF516D2AC7900369C55 /* Sources */,
 				A4B37FF616D2AC7900369C55 /* Frameworks */,
 				A4B37FF716D2AC7900369C55 /* CopyFiles */,
+				A4B3802416D2AE7300369C55 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -243,7 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4B3800416D2AC7A00369C55 /* AISUtilities.m in Sources */,
+				A4B3802816D2AF1300369C55 /* AISHello.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +353,7 @@
 				GCC_PREFIX_HEADER = "AISUtilities/AISUtilities-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -350,6 +366,7 @@
 				GCC_PREFIX_HEADER = "AISUtilities/AISUtilities-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
