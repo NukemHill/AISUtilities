@@ -18,5 +18,9 @@
 	return @"Goodbye!";
 }
 
+- (NSString *) helloAgain {
+	return @"I\'m back!!!";
+}
+
 
 @end
