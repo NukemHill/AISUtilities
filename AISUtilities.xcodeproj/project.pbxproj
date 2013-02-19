@@ -32,8 +32,6 @@
 		A4B380FD16D3C6C700369C55 /* NSString+Trim.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B380EC16D3C6C700369C55 /* NSString+Trim.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4B380FE16D3C6C700369C55 /* NSString+Trim.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B380ED16D3C6C700369C55 /* NSString+Trim.m */; };
 		A4B380FF16D3C6C700369C55 /* SynthesizeSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B380EE16D3C6C700369C55 /* SynthesizeSingleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4B3810016D3C6C700369C55 /* TextBanner.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B380EF16D3C6C700369C55 /* TextBanner.h */; };
-		A4B3810116D3C6C700369C55 /* TextBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B380F016D3C6C700369C55 /* TextBanner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,8 +85,6 @@
 		A4B380EC16D3C6C700369C55 /* NSString+Trim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Trim.h"; sourceTree = "<group>"; };
 		A4B380ED16D3C6C700369C55 /* NSString+Trim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Trim.m"; sourceTree = "<group>"; };
 		A4B380EE16D3C6C700369C55 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
-		A4B380EF16D3C6C700369C55 /* TextBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextBanner.h; sourceTree = "<group>"; };
-		A4B380F016D3C6C700369C55 /* TextBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextBanner.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,8 +196,6 @@
 				A4B380EC16D3C6C700369C55 /* NSString+Trim.h */,
 				A4B380ED16D3C6C700369C55 /* NSString+Trim.m */,
 				A4B380EE16D3C6C700369C55 /* SynthesizeSingleton.h */,
-				A4B380EF16D3C6C700369C55 /* TextBanner.h */,
-				A4B380F016D3C6C700369C55 /* TextBanner.m */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -223,7 +217,6 @@
 				A4B380FB16D3C6C700369C55 /* NSObject+IncompleteException.h in Headers */,
 				A4B380FD16D3C6C700369C55 /* NSString+Trim.h in Headers */,
 				A4B380FF16D3C6C700369C55 /* SynthesizeSingleton.h in Headers */,
-				A4B3810016D3C6C700369C55 /* TextBanner.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +327,6 @@
 				A4B380FA16D3C6C700369C55 /* NSDictionary+ObjectAtIndex.m in Sources */,
 				A4B380FC16D3C6C700369C55 /* NSObject+IncompleteException.m in Sources */,
 				A4B380FE16D3C6C700369C55 /* NSString+Trim.m in Sources */,
-				A4B3810116D3C6C700369C55 /* TextBanner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
