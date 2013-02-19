@@ -9,3 +9,11 @@
 #import <Foundation/Foundation.h>
 
 #import <AISUtilities/AISHello.h>
+#import <AISUtilities/DebugLog.h>
+#import <AISUtilities/IncompleteImplementationException.h>
+#import <AISUtilities/NSDate+Formatter.h>
+#import <AISUtilities/NSDecimalNumber+Price.h>
+#import <AISUtilities/NSDictionary+ObjectAtIndex.h>
+#import <AISUtilities/NSObject+IncompleteException.h>
+#import <AISUtilities/NSString+Trim.h>
+#import <AISUtilities/SynthesizeSingleton.h>
