@@ -17,6 +17,23 @@
 		A4B3802816D2AF1300369C55 /* AISHello.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B3802616D2AF1300369C55 /* AISHello.m */; };
 		A4B3802916D2AF9200369C55 /* AISUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B3800116D2AC7A00369C55 /* AISUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4B3802A16D2AF9200369C55 /* AISHello.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B3802516D2AF1300369C55 /* AISHello.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4B380F116D3C6C700369C55 /* DebugLog.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B380E016D3C6C700369C55 /* DebugLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4B380F216D3C6C700369C55 /* DebugLog.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B380E116D3C6C700369C55 /* DebugLog.m */; };
+		A4B380F316D3C6C700369C55 /* IncompleteImplementationException.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B380E216D3C6C700369C55 /* IncompleteImplementationException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4B380F416D3C6C700369C55 /* IncompleteImplementationException.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B380E316D3C6C700369C55 /* IncompleteImplementationException.m */; };
+		A4B380F516D3C6C700369C55 /* NSDate+Formatter.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B380E416D3C6C700369C55 /* NSDate+Formatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4B380F616D3C6C700369C55 /* NSDate+Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B380E516D3C6C700369C55 /* NSDate+Formatter.m */; };
+		A4B380F716D3C6C700369C55 /* NSDecimalNumber+Price.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B380E616D3C6C700369C55 /* NSDecimalNumber+Price.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4B380F816D3C6C700369C55 /* NSDecimalNumber+Price.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B380E716D3C6C700369C55 /* NSDecimalNumber+Price.m */; };
+		A4B380F916D3C6C700369C55 /* NSDictionary+ObjectAtIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B380E816D3C6C700369C55 /* NSDictionary+ObjectAtIndex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4B380FA16D3C6C700369C55 /* NSDictionary+ObjectAtIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B380E916D3C6C700369C55 /* NSDictionary+ObjectAtIndex.m */; };
+		A4B380FB16D3C6C700369C55 /* NSObject+IncompleteException.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B380EA16D3C6C700369C55 /* NSObject+IncompleteException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4B380FC16D3C6C700369C55 /* NSObject+IncompleteException.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B380EB16D3C6C700369C55 /* NSObject+IncompleteException.m */; };
+		A4B380FD16D3C6C700369C55 /* NSString+Trim.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B380EC16D3C6C700369C55 /* NSString+Trim.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4B380FE16D3C6C700369C55 /* NSString+Trim.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B380ED16D3C6C700369C55 /* NSString+Trim.m */; };
+		A4B380FF16D3C6C700369C55 /* SynthesizeSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B380EE16D3C6C700369C55 /* SynthesizeSingleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4B3810016D3C6C700369C55 /* TextBanner.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B380EF16D3C6C700369C55 /* TextBanner.h */; };
+		A4B3810116D3C6C700369C55 /* TextBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B380F016D3C6C700369C55 /* TextBanner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +72,23 @@
 		A4B3801A16D2AC7A00369C55 /* AISUtilitiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AISUtilitiesTests.m; sourceTree = "<group>"; };
 		A4B3802516D2AF1300369C55 /* AISHello.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISHello.h; sourceTree = "<group>"; };
 		A4B3802616D2AF1300369C55 /* AISHello.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISHello.m; sourceTree = "<group>"; };
+		A4B380E016D3C6C700369C55 /* DebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLog.h; sourceTree = "<group>"; };
+		A4B380E116D3C6C700369C55 /* DebugLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugLog.m; sourceTree = "<group>"; };
+		A4B380E216D3C6C700369C55 /* IncompleteImplementationException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IncompleteImplementationException.h; sourceTree = "<group>"; };
+		A4B380E316D3C6C700369C55 /* IncompleteImplementationException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IncompleteImplementationException.m; sourceTree = "<group>"; };
+		A4B380E416D3C6C700369C55 /* NSDate+Formatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Formatter.h"; sourceTree = "<group>"; };
+		A4B380E516D3C6C700369C55 /* NSDate+Formatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Formatter.m"; sourceTree = "<group>"; };
+		A4B380E616D3C6C700369C55 /* NSDecimalNumber+Price.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDecimalNumber+Price.h"; sourceTree = "<group>"; };
+		A4B380E716D3C6C700369C55 /* NSDecimalNumber+Price.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDecimalNumber+Price.m"; sourceTree = "<group>"; };
+		A4B380E816D3C6C700369C55 /* NSDictionary+ObjectAtIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ObjectAtIndex.h"; sourceTree = "<group>"; };
+		A4B380E916D3C6C700369C55 /* NSDictionary+ObjectAtIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ObjectAtIndex.m"; sourceTree = "<group>"; };
+		A4B380EA16D3C6C700369C55 /* NSObject+IncompleteException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+IncompleteException.h"; sourceTree = "<group>"; };
+		A4B380EB16D3C6C700369C55 /* NSObject+IncompleteException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IncompleteException.m"; sourceTree = "<group>"; };
+		A4B380EC16D3C6C700369C55 /* NSString+Trim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Trim.h"; sourceTree = "<group>"; };
+		A4B380ED16D3C6C700369C55 /* NSString+Trim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Trim.m"; sourceTree = "<group>"; };
+		A4B380EE16D3C6C700369C55 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		A4B380EF16D3C6C700369C55 /* TextBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextBanner.h; sourceTree = "<group>"; };
+		A4B380F016D3C6C700369C55 /* TextBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextBanner.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +146,7 @@
 		A4B37FFE16D2AC7A00369C55 /* AISUtilities */ = {
 			isa = PBXGroup;
 			children = (
+				A4B380DF16D3C6C700369C55 /* General */,
 				A4B3800116D2AC7A00369C55 /* AISUtilities.h */,
 				A4B3802516D2AF1300369C55 /* AISHello.h */,
 				A4B3802616D2AF1300369C55 /* AISHello.m */,
@@ -147,6 +182,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A4B380DF16D3C6C700369C55 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				A4B380E016D3C6C700369C55 /* DebugLog.h */,
+				A4B380E116D3C6C700369C55 /* DebugLog.m */,
+				A4B380E216D3C6C700369C55 /* IncompleteImplementationException.h */,
+				A4B380E316D3C6C700369C55 /* IncompleteImplementationException.m */,
+				A4B380E416D3C6C700369C55 /* NSDate+Formatter.h */,
+				A4B380E516D3C6C700369C55 /* NSDate+Formatter.m */,
+				A4B380E616D3C6C700369C55 /* NSDecimalNumber+Price.h */,
+				A4B380E716D3C6C700369C55 /* NSDecimalNumber+Price.m */,
+				A4B380E816D3C6C700369C55 /* NSDictionary+ObjectAtIndex.h */,
+				A4B380E916D3C6C700369C55 /* NSDictionary+ObjectAtIndex.m */,
+				A4B380EA16D3C6C700369C55 /* NSObject+IncompleteException.h */,
+				A4B380EB16D3C6C700369C55 /* NSObject+IncompleteException.m */,
+				A4B380EC16D3C6C700369C55 /* NSString+Trim.h */,
+				A4B380ED16D3C6C700369C55 /* NSString+Trim.m */,
+				A4B380EE16D3C6C700369C55 /* SynthesizeSingleton.h */,
+				A4B380EF16D3C6C700369C55 /* TextBanner.h */,
+				A4B380F016D3C6C700369C55 /* TextBanner.m */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -156,6 +215,15 @@
 			files = (
 				A4B3802916D2AF9200369C55 /* AISUtilities.h in Headers */,
 				A4B3802A16D2AF9200369C55 /* AISHello.h in Headers */,
+				A4B380F116D3C6C700369C55 /* DebugLog.h in Headers */,
+				A4B380F316D3C6C700369C55 /* IncompleteImplementationException.h in Headers */,
+				A4B380F516D3C6C700369C55 /* NSDate+Formatter.h in Headers */,
+				A4B380F716D3C6C700369C55 /* NSDecimalNumber+Price.h in Headers */,
+				A4B380F916D3C6C700369C55 /* NSDictionary+ObjectAtIndex.h in Headers */,
+				A4B380FB16D3C6C700369C55 /* NSObject+IncompleteException.h in Headers */,
+				A4B380FD16D3C6C700369C55 /* NSString+Trim.h in Headers */,
+				A4B380FF16D3C6C700369C55 /* SynthesizeSingleton.h in Headers */,
+				A4B3810016D3C6C700369C55 /* TextBanner.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +327,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4B3802816D2AF1300369C55 /* AISHello.m in Sources */,
+				A4B380F216D3C6C700369C55 /* DebugLog.m in Sources */,
+				A4B380F416D3C6C700369C55 /* IncompleteImplementationException.m in Sources */,
+				A4B380F616D3C6C700369C55 /* NSDate+Formatter.m in Sources */,
+				A4B380F816D3C6C700369C55 /* NSDecimalNumber+Price.m in Sources */,
+				A4B380FA16D3C6C700369C55 /* NSDictionary+ObjectAtIndex.m in Sources */,
+				A4B380FC16D3C6C700369C55 /* NSObject+IncompleteException.m in Sources */,
+				A4B380FE16D3C6C700369C55 /* NSString+Trim.m in Sources */,
+				A4B3810116D3C6C700369C55 /* TextBanner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +496,7 @@
 				A4B3802016D2AC7A00369C55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4B3802116D2AC7A00369C55 /* Build configuration list for PBXNativeTarget "AISUtilitiesTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +505,7 @@
 				A4B3802316D2AC7A00369C55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
