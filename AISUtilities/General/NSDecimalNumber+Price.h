@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDecimalNumber (Price)
+@interface NSDecimalNumber(Price)
 
 + (CGFloat) getPriceFromString:(NSString *)priceString;
 
