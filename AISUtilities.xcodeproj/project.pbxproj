@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A4B37FFD16D2AC7A00369C55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B37FFC16D2AC7A00369C55 /* Foundation.framework */; };
 		A4B3800C16D2AC7A00369C55 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B3800B16D2AC7A00369C55 /* SenTestingKit.framework */; };
-		A4B3800E16D2AC7A00369C55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B3800D16D2AC7A00369C55 /* UIKit.framework */; };
 		A4B3800F16D2AC7A00369C55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B37FFC16D2AC7A00369C55 /* Foundation.framework */; };
 		A4B3801216D2AC7A00369C55 /* libAISUtilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B37FF916D2AC7900369C55 /* libAISUtilities.a */; };
 		A4B3801816D2AC7A00369C55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4B3801616D2AC7A00369C55 /* InfoPlist.strings */; };
@@ -32,6 +31,8 @@
 		A4B380FF16D3C6C700369C55 /* SynthesizeSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B380EE16D3C6C700369C55 /* SynthesizeSingleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4B3810616D3CA1500369C55 /* NSDecimalNumber+Price.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B3810416D3CA1500369C55 /* NSDecimalNumber+Price.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4B3810716D3CA1500369C55 /* NSDecimalNumber+Price.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B3810516D3CA1500369C55 /* NSDecimalNumber+Price.m */; };
+		A4F6028F17821AD0002E96E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F6028E17821AD0002E96E3 /* UIKit.framework */; };
+		A4F6029117821FCF002E96E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F6029017821FCF002E96E3 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +64,6 @@
 		A4B3800116D2AC7A00369C55 /* AISUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AISUtilities.h; sourceTree = "<group>"; };
 		A4B3800A16D2AC7A00369C55 /* AISUtilitiesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AISUtilitiesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B3800B16D2AC7A00369C55 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		A4B3800D16D2AC7A00369C55 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		A4B3801516D2AC7A00369C55 /* AISUtilitiesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AISUtilitiesTests-Info.plist"; sourceTree = "<group>"; };
 		A4B3801716D2AC7A00369C55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A4B3801916D2AC7A00369C55 /* AISUtilitiesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AISUtilitiesTests.h; sourceTree = "<group>"; };
@@ -85,6 +85,8 @@
 		A4B380EE16D3C6C700369C55 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
 		A4B3810416D3CA1500369C55 /* NSDecimalNumber+Price.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDecimalNumber+Price.h"; sourceTree = "<group>"; };
 		A4B3810516D3CA1500369C55 /* NSDecimalNumber+Price.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDecimalNumber+Price.m"; sourceTree = "<group>"; };
+		A4F6028E17821AD0002E96E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A4F6029017821FCF002E96E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4F6029117821FCF002E96E3 /* CoreGraphics.framework in Frameworks */,
+				A4F6028F17821AD0002E96E3 /* UIKit.framework in Frameworks */,
 				A4B37FFD16D2AC7A00369C55 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,7 +105,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4B3800C16D2AC7A00369C55 /* SenTestingKit.framework in Frameworks */,
-				A4B3800E16D2AC7A00369C55 /* UIKit.framework in Frameworks */,
 				A4B3800F16D2AC7A00369C55 /* Foundation.framework in Frameworks */,
 				A4B3801216D2AC7A00369C55 /* libAISUtilities.a in Frameworks */,
 			);
@@ -133,8 +136,9 @@
 			isa = PBXGroup;
 			children = (
 				A4B37FFC16D2AC7A00369C55 /* Foundation.framework */,
+				A4F6028E17821AD0002E96E3 /* UIKit.framework */,
+				A4F6029017821FCF002E96E3 /* CoreGraphics.framework */,
 				A4B3800B16D2AC7A00369C55 /* SenTestingKit.framework */,
-				A4B3800D16D2AC7A00369C55 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -416,6 +420,7 @@
 		A4B3801F16D2AC7A00369C55 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				DSTROOT = /tmp/AISUtilities.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AISUtilities/AISUtilities-Prefix.pch";
@@ -429,6 +434,7 @@
 		A4B3802016D2AC7A00369C55 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				DSTROOT = /tmp/AISUtilities.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AISUtilities/AISUtilities-Prefix.pch";

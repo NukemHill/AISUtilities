@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+#import "AISUtilities.h"
+
+
 @interface AISHello : NSObject
 
 - (NSString *) hello;
