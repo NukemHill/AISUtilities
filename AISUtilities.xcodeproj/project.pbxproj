@@ -31,8 +31,20 @@
 		A4B380FF16D3C6C700369C55 /* SynthesizeSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B380EE16D3C6C700369C55 /* SynthesizeSingleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4B3810616D3CA1500369C55 /* NSDecimalNumber+Price.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B3810416D3CA1500369C55 /* NSDecimalNumber+Price.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4B3810716D3CA1500369C55 /* NSDecimalNumber+Price.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B3810516D3CA1500369C55 /* NSDecimalNumber+Price.m */; };
+		A4BAAF9A17833A4D003EEFA1 /* NSString+URLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = A4BAAF9817833A4D003EEFA1 /* NSString+URLEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4BAAF9B17833A4D003EEFA1 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BAAF9917833A4D003EEFA1 /* NSString+URLEncoding.m */; };
 		A4F6028F17821AD0002E96E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F6028E17821AD0002E96E3 /* UIKit.framework */; };
 		A4F6029117821FCF002E96E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F6029017821FCF002E96E3 /* CoreGraphics.framework */; };
+		A4F6031717833947002E96E3 /* TimerUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F6030D17833946002E96E3 /* TimerUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4F6031817833947002E96E3 /* TimerUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F6030E17833947002E96E3 /* TimerUtility.m */; };
+		A4F6031917833947002E96E3 /* UIColor+ColorToImage.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F6030F17833947002E96E3 /* UIColor+ColorToImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4F6031A17833947002E96E3 /* UIColor+ColorToImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F6031017833947002E96E3 /* UIColor+ColorToImage.m */; };
+		A4F6031B17833947002E96E3 /* UIColor+HexToRGB.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F6031117833947002E96E3 /* UIColor+HexToRGB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4F6031C17833947002E96E3 /* UIColor+HexToRGB.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F6031217833947002E96E3 /* UIColor+HexToRGB.m */; };
+		A4F6031D17833947002E96E3 /* UIColor+NormalizedRGB.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F6031317833947002E96E3 /* UIColor+NormalizedRGB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4F6031E17833947002E96E3 /* UIColor+NormalizedRGB.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F6031417833947002E96E3 /* UIColor+NormalizedRGB.m */; };
+		A4F6031F17833947002E96E3 /* UIImage+ImageUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F6031517833947002E96E3 /* UIImage+ImageUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4F6032017833947002E96E3 /* UIImage+ImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F6031617833947002E96E3 /* UIImage+ImageUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,8 +97,20 @@
 		A4B380EE16D3C6C700369C55 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
 		A4B3810416D3CA1500369C55 /* NSDecimalNumber+Price.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDecimalNumber+Price.h"; sourceTree = "<group>"; };
 		A4B3810516D3CA1500369C55 /* NSDecimalNumber+Price.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDecimalNumber+Price.m"; sourceTree = "<group>"; };
+		A4BAAF9817833A4D003EEFA1 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		A4BAAF9917833A4D003EEFA1 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
 		A4F6028E17821AD0002E96E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A4F6029017821FCF002E96E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A4F6030D17833946002E96E3 /* TimerUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerUtility.h; sourceTree = "<group>"; };
+		A4F6030E17833947002E96E3 /* TimerUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerUtility.m; sourceTree = "<group>"; };
+		A4F6030F17833947002E96E3 /* UIColor+ColorToImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorToImage.h"; sourceTree = "<group>"; };
+		A4F6031017833947002E96E3 /* UIColor+ColorToImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorToImage.m"; sourceTree = "<group>"; };
+		A4F6031117833947002E96E3 /* UIColor+HexToRGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexToRGB.h"; sourceTree = "<group>"; };
+		A4F6031217833947002E96E3 /* UIColor+HexToRGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexToRGB.m"; sourceTree = "<group>"; };
+		A4F6031317833947002E96E3 /* UIColor+NormalizedRGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NormalizedRGB.h"; sourceTree = "<group>"; };
+		A4F6031417833947002E96E3 /* UIColor+NormalizedRGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NormalizedRGB.m"; sourceTree = "<group>"; };
+		A4F6031517833947002E96E3 /* UIImage+ImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageUtils.h"; sourceTree = "<group>"; };
+		A4F6031617833947002E96E3 /* UIImage+ImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageUtils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +209,18 @@
 		A4B380DF16D3C6C700369C55 /* General */ = {
 			isa = PBXGroup;
 			children = (
+				A4BAAF9817833A4D003EEFA1 /* NSString+URLEncoding.h */,
+				A4BAAF9917833A4D003EEFA1 /* NSString+URLEncoding.m */,
+				A4F6030D17833946002E96E3 /* TimerUtility.h */,
+				A4F6030E17833947002E96E3 /* TimerUtility.m */,
+				A4F6030F17833947002E96E3 /* UIColor+ColorToImage.h */,
+				A4F6031017833947002E96E3 /* UIColor+ColorToImage.m */,
+				A4F6031117833947002E96E3 /* UIColor+HexToRGB.h */,
+				A4F6031217833947002E96E3 /* UIColor+HexToRGB.m */,
+				A4F6031317833947002E96E3 /* UIColor+NormalizedRGB.h */,
+				A4F6031417833947002E96E3 /* UIColor+NormalizedRGB.m */,
+				A4F6031517833947002E96E3 /* UIImage+ImageUtils.h */,
+				A4F6031617833947002E96E3 /* UIImage+ImageUtils.m */,
 				A4B380EE16D3C6C700369C55 /* SynthesizeSingleton.h */,
 				A4B380E016D3C6C700369C55 /* DebugLog.h */,
 				A4B380E116D3C6C700369C55 /* DebugLog.m */,
@@ -221,6 +257,12 @@
 				A4B380FD16D3C6C700369C55 /* NSString+Trim.h in Headers */,
 				A4B380FF16D3C6C700369C55 /* SynthesizeSingleton.h in Headers */,
 				A4B3810616D3CA1500369C55 /* NSDecimalNumber+Price.h in Headers */,
+				A4F6031717833947002E96E3 /* TimerUtility.h in Headers */,
+				A4F6031917833947002E96E3 /* UIColor+ColorToImage.h in Headers */,
+				A4F6031B17833947002E96E3 /* UIColor+HexToRGB.h in Headers */,
+				A4F6031D17833947002E96E3 /* UIColor+NormalizedRGB.h in Headers */,
+				A4F6031F17833947002E96E3 /* UIImage+ImageUtils.h in Headers */,
+				A4BAAF9A17833A4D003EEFA1 /* NSString+URLEncoding.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +373,12 @@
 				A4B380FC16D3C6C700369C55 /* NSObject+IncompleteException.m in Sources */,
 				A4B380FE16D3C6C700369C55 /* NSString+Trim.m in Sources */,
 				A4B3810716D3CA1500369C55 /* NSDecimalNumber+Price.m in Sources */,
+				A4F6031817833947002E96E3 /* TimerUtility.m in Sources */,
+				A4F6031A17833947002E96E3 /* UIColor+ColorToImage.m in Sources */,
+				A4F6031C17833947002E96E3 /* UIColor+HexToRGB.m in Sources */,
+				A4F6031E17833947002E96E3 /* UIColor+NormalizedRGB.m in Sources */,
+				A4F6032017833947002E96E3 /* UIImage+ImageUtils.m in Sources */,
+				A4BAAF9B17833A4D003EEFA1 /* NSString+URLEncoding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
