@@ -13,9 +13,7 @@
 		A4B3801216D2AC7A00369C55 /* libAISUtilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B37FF916D2AC7900369C55 /* libAISUtilities.a */; };
 		A4B3801816D2AC7A00369C55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4B3801616D2AC7A00369C55 /* InfoPlist.strings */; };
 		A4B3801B16D2AC7A00369C55 /* AISUtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B3801A16D2AC7A00369C55 /* AISUtilitiesTests.m */; };
-		A4B3802816D2AF1300369C55 /* AISHello.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B3802616D2AF1300369C55 /* AISHello.m */; };
 		A4B3802916D2AF9200369C55 /* AISUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B3800116D2AC7A00369C55 /* AISUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4B3802A16D2AF9200369C55 /* AISHello.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B3802516D2AF1300369C55 /* AISHello.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4B380F116D3C6C700369C55 /* DebugLog.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B380E016D3C6C700369C55 /* DebugLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4B380F216D3C6C700369C55 /* DebugLog.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B380E116D3C6C700369C55 /* DebugLog.m */; };
 		A4B380F316D3C6C700369C55 /* IncompleteImplementationException.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B380E216D3C6C700369C55 /* IncompleteImplementationException.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -80,8 +78,6 @@
 		A4B3801716D2AC7A00369C55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A4B3801916D2AC7A00369C55 /* AISUtilitiesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AISUtilitiesTests.h; sourceTree = "<group>"; };
 		A4B3801A16D2AC7A00369C55 /* AISUtilitiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AISUtilitiesTests.m; sourceTree = "<group>"; };
-		A4B3802516D2AF1300369C55 /* AISHello.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISHello.h; sourceTree = "<group>"; };
-		A4B3802616D2AF1300369C55 /* AISHello.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISHello.m; sourceTree = "<group>"; };
 		A4B380E016D3C6C700369C55 /* DebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLog.h; sourceTree = "<group>"; };
 		A4B380E116D3C6C700369C55 /* DebugLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugLog.m; sourceTree = "<group>"; };
 		A4B380E216D3C6C700369C55 /* IncompleteImplementationException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IncompleteImplementationException.h; sourceTree = "<group>"; };
@@ -172,8 +168,6 @@
 			children = (
 				A4B380DF16D3C6C700369C55 /* General */,
 				A4B3800116D2AC7A00369C55 /* AISUtilities.h */,
-				A4B3802516D2AF1300369C55 /* AISHello.h */,
-				A4B3802616D2AF1300369C55 /* AISHello.m */,
 				A4B37FFF16D2AC7A00369C55 /* Supporting Files */,
 			);
 			path = AISUtilities;
@@ -248,7 +242,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4B3802916D2AF9200369C55 /* AISUtilities.h in Headers */,
-				A4B3802A16D2AF9200369C55 /* AISHello.h in Headers */,
 				A4B380F116D3C6C700369C55 /* DebugLog.h in Headers */,
 				A4B380F316D3C6C700369C55 /* IncompleteImplementationException.h in Headers */,
 				A4B380F516D3C6C700369C55 /* NSDate+Formatter.h in Headers */,
@@ -365,7 +358,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4B3802816D2AF1300369C55 /* AISHello.m in Sources */,
 				A4B380F216D3C6C700369C55 /* DebugLog.m in Sources */,
 				A4B380F416D3C6C700369C55 /* IncompleteImplementationException.m in Sources */,
 				A4B380F616D3C6C700369C55 /* NSDate+Formatter.m in Sources */,
