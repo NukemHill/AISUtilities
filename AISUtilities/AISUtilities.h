@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-#import <AISUtilities/AISHello.h>
 #import <AISUtilities/DebugLog.h>
 #import <AISUtilities/IncompleteImplementationException.h>
 #import <AISUtilities/NSDate+Formatter.h>

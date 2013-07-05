@@ -31,6 +31,49 @@
 		A4B3810716D3CA1500369C55 /* NSDecimalNumber+Price.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B3810516D3CA1500369C55 /* NSDecimalNumber+Price.m */; };
 		A4BAAF9A17833A4D003EEFA1 /* NSString+URLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = A4BAAF9817833A4D003EEFA1 /* NSString+URLEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4BAAF9B17833A4D003EEFA1 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BAAF9917833A4D003EEFA1 /* NSString+URLEncoding.m */; };
+		A4D413A417871F63005D62BF /* AISWebServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D4137617871F63005D62BF /* AISWebServiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D413A517871F63005D62BF /* AISWebServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D4137717871F63005D62BF /* AISWebServiceManager.m */; };
+		A4D413A617871F63005D62BF /* ImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D4137817871F63005D62BF /* ImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D413A717871F63005D62BF /* ImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D4137917871F63005D62BF /* ImageDownloader.m */; };
+		A4D413A817871F63005D62BF /* AISWebServiceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D4137B17871F63005D62BF /* AISWebServiceRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D413A917871F63005D62BF /* AISWebServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D4137C17871F63005D62BF /* AISWebServiceRequest.m */; };
+		A4D413AA17871F63005D62BF /* WebServiceDeleteRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D4137D17871F63005D62BF /* WebServiceDeleteRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D413AB17871F63005D62BF /* WebServiceDeleteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D4137E17871F63005D62BF /* WebServiceDeleteRequest.m */; };
+		A4D413AC17871F64005D62BF /* WebServiceGetRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D4137F17871F63005D62BF /* WebServiceGetRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D413AD17871F64005D62BF /* WebServiceGetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D4138017871F63005D62BF /* WebServiceGetRequest.m */; };
+		A4D413AE17871F64005D62BF /* WebServicePostRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D4138117871F63005D62BF /* WebServicePostRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D413AF17871F64005D62BF /* WebServicePostRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D4138217871F63005D62BF /* WebServicePostRequest.m */; };
+		A4D413B017871F64005D62BF /* WebServicePutRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D4138317871F63005D62BF /* WebServicePutRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D413B117871F64005D62BF /* WebServicePutRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D4138417871F63005D62BF /* WebServicePutRequest.m */; };
+		A4D413B217871F64005D62BF /* ResponseCode200.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D4138617871F63005D62BF /* ResponseCode200.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D413B317871F64005D62BF /* ResponseCode200.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D4138717871F63005D62BF /* ResponseCode200.m */; };
+		A4D413B417871F64005D62BF /* ResponseCode302.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D4138817871F63005D62BF /* ResponseCode302.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D413B517871F64005D62BF /* ResponseCode302.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D4138917871F63005D62BF /* ResponseCode302.m */; };
+		A4D413B617871F64005D62BF /* ResponseCode401.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D4138A17871F63005D62BF /* ResponseCode401.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D413B717871F64005D62BF /* ResponseCode401.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D4138B17871F63005D62BF /* ResponseCode401.m */; };
+		A4D413B817871F64005D62BF /* ResponseCode403.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D4138C17871F63005D62BF /* ResponseCode403.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D413B917871F64005D62BF /* ResponseCode403.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D4138D17871F63005D62BF /* ResponseCode403.m */; };
+		A4D413BA17871F64005D62BF /* ResponseCode404.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D4138E17871F63005D62BF /* ResponseCode404.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D413BB17871F64005D62BF /* ResponseCode404.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D4138F17871F63005D62BF /* ResponseCode404.m */; };
+		A4D413BC17871F64005D62BF /* ResponseCode408.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D4139017871F63005D62BF /* ResponseCode408.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D413BD17871F64005D62BF /* ResponseCode408.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D4139117871F63005D62BF /* ResponseCode408.m */; };
+		A4D413BE17871F64005D62BF /* ResponseCode412.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D4139217871F63005D62BF /* ResponseCode412.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D413BF17871F64005D62BF /* ResponseCode412.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D4139317871F63005D62BF /* ResponseCode412.m */; };
+		A4D413C017871F64005D62BF /* ResponseCode500.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D4139417871F63005D62BF /* ResponseCode500.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D413C117871F64005D62BF /* ResponseCode500.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D4139517871F63005D62BF /* ResponseCode500.m */; };
+		A4D413C217871F64005D62BF /* ResponseCode503.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D4139617871F63005D62BF /* ResponseCode503.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D413C317871F64005D62BF /* ResponseCode503.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D4139717871F63005D62BF /* ResponseCode503.m */; };
+		A4D413C417871F64005D62BF /* WebServiceResponseValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D4139817871F63005D62BF /* WebServiceResponseValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D413C517871F64005D62BF /* WebServiceResponseValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D4139917871F63005D62BF /* WebServiceResponseValidator.m */; };
+		A4D413C617871F64005D62BF /* AISWebServiceResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D4139B17871F63005D62BF /* AISWebServiceResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D413C717871F64005D62BF /* AISWebServiceResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D4139C17871F63005D62BF /* AISWebServiceResponse.m */; };
+		A4D413C817871F64005D62BF /* LegacyHttpResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D4139D17871F63005D62BF /* LegacyHttpResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D413C917871F64005D62BF /* LegacyHttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D4139E17871F63005D62BF /* LegacyHttpResponse.m */; };
+		A4D413CA17871F64005D62BF /* ValidatedAJAXResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D4139F17871F63005D62BF /* ValidatedAJAXResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D413CB17871F64005D62BF /* ValidatedAJAXResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D413A017871F63005D62BF /* ValidatedAJAXResponse.m */; };
+		A4D413CC17871F64005D62BF /* WebApiResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D413A117871F63005D62BF /* WebApiResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4D413CD17871F64005D62BF /* WebApiResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D413A217871F63005D62BF /* WebApiResponse.m */; };
+		A4D413CE17871F64005D62BF /* WebServiceDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D413A317871F63005D62BF /* WebServiceDefs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4F6028F17821AD0002E96E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F6028E17821AD0002E96E3 /* UIKit.framework */; };
 		A4F6029117821FCF002E96E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F6029017821FCF002E96E3 /* CoreGraphics.framework */; };
 		A4F6031717833947002E96E3 /* TimerUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F6030D17833946002E96E3 /* TimerUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -95,6 +138,49 @@
 		A4B3810516D3CA1500369C55 /* NSDecimalNumber+Price.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDecimalNumber+Price.m"; sourceTree = "<group>"; };
 		A4BAAF9817833A4D003EEFA1 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
 		A4BAAF9917833A4D003EEFA1 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		A4D4137617871F63005D62BF /* AISWebServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISWebServiceManager.h; sourceTree = "<group>"; };
+		A4D4137717871F63005D62BF /* AISWebServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISWebServiceManager.m; sourceTree = "<group>"; };
+		A4D4137817871F63005D62BF /* ImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDownloader.h; sourceTree = "<group>"; };
+		A4D4137917871F63005D62BF /* ImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDownloader.m; sourceTree = "<group>"; };
+		A4D4137B17871F63005D62BF /* AISWebServiceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISWebServiceRequest.h; sourceTree = "<group>"; };
+		A4D4137C17871F63005D62BF /* AISWebServiceRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISWebServiceRequest.m; sourceTree = "<group>"; };
+		A4D4137D17871F63005D62BF /* WebServiceDeleteRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceDeleteRequest.h; sourceTree = "<group>"; };
+		A4D4137E17871F63005D62BF /* WebServiceDeleteRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceDeleteRequest.m; sourceTree = "<group>"; };
+		A4D4137F17871F63005D62BF /* WebServiceGetRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceGetRequest.h; sourceTree = "<group>"; };
+		A4D4138017871F63005D62BF /* WebServiceGetRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceGetRequest.m; sourceTree = "<group>"; };
+		A4D4138117871F63005D62BF /* WebServicePostRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServicePostRequest.h; sourceTree = "<group>"; };
+		A4D4138217871F63005D62BF /* WebServicePostRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServicePostRequest.m; sourceTree = "<group>"; };
+		A4D4138317871F63005D62BF /* WebServicePutRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServicePutRequest.h; sourceTree = "<group>"; };
+		A4D4138417871F63005D62BF /* WebServicePutRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServicePutRequest.m; sourceTree = "<group>"; };
+		A4D4138617871F63005D62BF /* ResponseCode200.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseCode200.h; sourceTree = "<group>"; };
+		A4D4138717871F63005D62BF /* ResponseCode200.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseCode200.m; sourceTree = "<group>"; };
+		A4D4138817871F63005D62BF /* ResponseCode302.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseCode302.h; sourceTree = "<group>"; };
+		A4D4138917871F63005D62BF /* ResponseCode302.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseCode302.m; sourceTree = "<group>"; };
+		A4D4138A17871F63005D62BF /* ResponseCode401.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseCode401.h; sourceTree = "<group>"; };
+		A4D4138B17871F63005D62BF /* ResponseCode401.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseCode401.m; sourceTree = "<group>"; };
+		A4D4138C17871F63005D62BF /* ResponseCode403.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseCode403.h; sourceTree = "<group>"; };
+		A4D4138D17871F63005D62BF /* ResponseCode403.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseCode403.m; sourceTree = "<group>"; };
+		A4D4138E17871F63005D62BF /* ResponseCode404.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseCode404.h; sourceTree = "<group>"; };
+		A4D4138F17871F63005D62BF /* ResponseCode404.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseCode404.m; sourceTree = "<group>"; };
+		A4D4139017871F63005D62BF /* ResponseCode408.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseCode408.h; sourceTree = "<group>"; };
+		A4D4139117871F63005D62BF /* ResponseCode408.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseCode408.m; sourceTree = "<group>"; };
+		A4D4139217871F63005D62BF /* ResponseCode412.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseCode412.h; sourceTree = "<group>"; };
+		A4D4139317871F63005D62BF /* ResponseCode412.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseCode412.m; sourceTree = "<group>"; };
+		A4D4139417871F63005D62BF /* ResponseCode500.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseCode500.h; sourceTree = "<group>"; };
+		A4D4139517871F63005D62BF /* ResponseCode500.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseCode500.m; sourceTree = "<group>"; };
+		A4D4139617871F63005D62BF /* ResponseCode503.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseCode503.h; sourceTree = "<group>"; };
+		A4D4139717871F63005D62BF /* ResponseCode503.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseCode503.m; sourceTree = "<group>"; };
+		A4D4139817871F63005D62BF /* WebServiceResponseValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceResponseValidator.h; sourceTree = "<group>"; };
+		A4D4139917871F63005D62BF /* WebServiceResponseValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceResponseValidator.m; sourceTree = "<group>"; };
+		A4D4139B17871F63005D62BF /* AISWebServiceResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISWebServiceResponse.h; sourceTree = "<group>"; };
+		A4D4139C17871F63005D62BF /* AISWebServiceResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISWebServiceResponse.m; sourceTree = "<group>"; };
+		A4D4139D17871F63005D62BF /* LegacyHttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegacyHttpResponse.h; sourceTree = "<group>"; };
+		A4D4139E17871F63005D62BF /* LegacyHttpResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegacyHttpResponse.m; sourceTree = "<group>"; };
+		A4D4139F17871F63005D62BF /* ValidatedAJAXResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidatedAJAXResponse.h; sourceTree = "<group>"; };
+		A4D413A017871F63005D62BF /* ValidatedAJAXResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidatedAJAXResponse.m; sourceTree = "<group>"; };
+		A4D413A117871F63005D62BF /* WebApiResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebApiResponse.h; sourceTree = "<group>"; };
+		A4D413A217871F63005D62BF /* WebApiResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebApiResponse.m; sourceTree = "<group>"; };
+		A4D413A317871F63005D62BF /* WebServiceDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceDefs.h; sourceTree = "<group>"; };
 		A4F6028E17821AD0002E96E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A4F6029017821FCF002E96E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A4F6030D17833946002E96E3 /* TimerUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerUtility.h; sourceTree = "<group>"; };
@@ -167,6 +253,7 @@
 			isa = PBXGroup;
 			children = (
 				A4B380DF16D3C6C700369C55 /* General */,
+				A4D4137517871F63005D62BF /* WebServiceManager */,
 				A4B3800116D2AC7A00369C55 /* AISUtilities.h */,
 				A4B37FFF16D2AC7A00369C55 /* Supporting Files */,
 			);
@@ -234,6 +321,80 @@
 			path = General;
 			sourceTree = "<group>";
 		};
+		A4D4137517871F63005D62BF /* WebServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				A4D4137617871F63005D62BF /* AISWebServiceManager.h */,
+				A4D4137717871F63005D62BF /* AISWebServiceManager.m */,
+				A4D4137817871F63005D62BF /* ImageDownloader.h */,
+				A4D4137917871F63005D62BF /* ImageDownloader.m */,
+				A4D4137A17871F63005D62BF /* Requests */,
+				A4D4138517871F63005D62BF /* Response Validators */,
+				A4D4139A17871F63005D62BF /* Responses */,
+				A4D413A317871F63005D62BF /* WebServiceDefs.h */,
+			);
+			path = WebServiceManager;
+			sourceTree = "<group>";
+		};
+		A4D4137A17871F63005D62BF /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				A4D4137B17871F63005D62BF /* AISWebServiceRequest.h */,
+				A4D4137C17871F63005D62BF /* AISWebServiceRequest.m */,
+				A4D4137D17871F63005D62BF /* WebServiceDeleteRequest.h */,
+				A4D4137E17871F63005D62BF /* WebServiceDeleteRequest.m */,
+				A4D4137F17871F63005D62BF /* WebServiceGetRequest.h */,
+				A4D4138017871F63005D62BF /* WebServiceGetRequest.m */,
+				A4D4138117871F63005D62BF /* WebServicePostRequest.h */,
+				A4D4138217871F63005D62BF /* WebServicePostRequest.m */,
+				A4D4138317871F63005D62BF /* WebServicePutRequest.h */,
+				A4D4138417871F63005D62BF /* WebServicePutRequest.m */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		A4D4138517871F63005D62BF /* Response Validators */ = {
+			isa = PBXGroup;
+			children = (
+				A4D4139817871F63005D62BF /* WebServiceResponseValidator.h */,
+				A4D4139917871F63005D62BF /* WebServiceResponseValidator.m */,
+				A4D4138617871F63005D62BF /* ResponseCode200.h */,
+				A4D4138717871F63005D62BF /* ResponseCode200.m */,
+				A4D4138817871F63005D62BF /* ResponseCode302.h */,
+				A4D4138917871F63005D62BF /* ResponseCode302.m */,
+				A4D4138A17871F63005D62BF /* ResponseCode401.h */,
+				A4D4138B17871F63005D62BF /* ResponseCode401.m */,
+				A4D4138C17871F63005D62BF /* ResponseCode403.h */,
+				A4D4138D17871F63005D62BF /* ResponseCode403.m */,
+				A4D4138E17871F63005D62BF /* ResponseCode404.h */,
+				A4D4138F17871F63005D62BF /* ResponseCode404.m */,
+				A4D4139017871F63005D62BF /* ResponseCode408.h */,
+				A4D4139117871F63005D62BF /* ResponseCode408.m */,
+				A4D4139217871F63005D62BF /* ResponseCode412.h */,
+				A4D4139317871F63005D62BF /* ResponseCode412.m */,
+				A4D4139417871F63005D62BF /* ResponseCode500.h */,
+				A4D4139517871F63005D62BF /* ResponseCode500.m */,
+				A4D4139617871F63005D62BF /* ResponseCode503.h */,
+				A4D4139717871F63005D62BF /* ResponseCode503.m */,
+			);
+			path = "Response Validators";
+			sourceTree = "<group>";
+		};
+		A4D4139A17871F63005D62BF /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				A4D4139B17871F63005D62BF /* AISWebServiceResponse.h */,
+				A4D4139C17871F63005D62BF /* AISWebServiceResponse.m */,
+				A4D4139D17871F63005D62BF /* LegacyHttpResponse.h */,
+				A4D4139E17871F63005D62BF /* LegacyHttpResponse.m */,
+				A4D4139F17871F63005D62BF /* ValidatedAJAXResponse.h */,
+				A4D413A017871F63005D62BF /* ValidatedAJAXResponse.m */,
+				A4D413A117871F63005D62BF /* WebApiResponse.h */,
+				A4D413A217871F63005D62BF /* WebApiResponse.m */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -256,6 +417,28 @@
 				A4F6031D17833947002E96E3 /* UIColor+NormalizedRGB.h in Headers */,
 				A4F6031F17833947002E96E3 /* UIImage+ImageUtils.h in Headers */,
 				A4BAAF9A17833A4D003EEFA1 /* NSString+URLEncoding.h in Headers */,
+				A4D413A417871F63005D62BF /* AISWebServiceManager.h in Headers */,
+				A4D413A617871F63005D62BF /* ImageDownloader.h in Headers */,
+				A4D413A817871F63005D62BF /* AISWebServiceRequest.h in Headers */,
+				A4D413AA17871F63005D62BF /* WebServiceDeleteRequest.h in Headers */,
+				A4D413AC17871F64005D62BF /* WebServiceGetRequest.h in Headers */,
+				A4D413AE17871F64005D62BF /* WebServicePostRequest.h in Headers */,
+				A4D413B017871F64005D62BF /* WebServicePutRequest.h in Headers */,
+				A4D413B217871F64005D62BF /* ResponseCode200.h in Headers */,
+				A4D413B417871F64005D62BF /* ResponseCode302.h in Headers */,
+				A4D413B617871F64005D62BF /* ResponseCode401.h in Headers */,
+				A4D413B817871F64005D62BF /* ResponseCode403.h in Headers */,
+				A4D413BA17871F64005D62BF /* ResponseCode404.h in Headers */,
+				A4D413BC17871F64005D62BF /* ResponseCode408.h in Headers */,
+				A4D413BE17871F64005D62BF /* ResponseCode412.h in Headers */,
+				A4D413C017871F64005D62BF /* ResponseCode500.h in Headers */,
+				A4D413C217871F64005D62BF /* ResponseCode503.h in Headers */,
+				A4D413C417871F64005D62BF /* WebServiceResponseValidator.h in Headers */,
+				A4D413C617871F64005D62BF /* AISWebServiceResponse.h in Headers */,
+				A4D413C817871F64005D62BF /* LegacyHttpResponse.h in Headers */,
+				A4D413CA17871F64005D62BF /* ValidatedAJAXResponse.h in Headers */,
+				A4D413CC17871F64005D62BF /* WebApiResponse.h in Headers */,
+				A4D413CE17871F64005D62BF /* WebServiceDefs.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +554,27 @@
 				A4F6031E17833947002E96E3 /* UIColor+NormalizedRGB.m in Sources */,
 				A4F6032017833947002E96E3 /* UIImage+ImageUtils.m in Sources */,
 				A4BAAF9B17833A4D003EEFA1 /* NSString+URLEncoding.m in Sources */,
+				A4D413A517871F63005D62BF /* AISWebServiceManager.m in Sources */,
+				A4D413A717871F63005D62BF /* ImageDownloader.m in Sources */,
+				A4D413A917871F63005D62BF /* AISWebServiceRequest.m in Sources */,
+				A4D413AB17871F63005D62BF /* WebServiceDeleteRequest.m in Sources */,
+				A4D413AD17871F64005D62BF /* WebServiceGetRequest.m in Sources */,
+				A4D413AF17871F64005D62BF /* WebServicePostRequest.m in Sources */,
+				A4D413B117871F64005D62BF /* WebServicePutRequest.m in Sources */,
+				A4D413B317871F64005D62BF /* ResponseCode200.m in Sources */,
+				A4D413B517871F64005D62BF /* ResponseCode302.m in Sources */,
+				A4D413B717871F64005D62BF /* ResponseCode401.m in Sources */,
+				A4D413B917871F64005D62BF /* ResponseCode403.m in Sources */,
+				A4D413BB17871F64005D62BF /* ResponseCode404.m in Sources */,
+				A4D413BD17871F64005D62BF /* ResponseCode408.m in Sources */,
+				A4D413BF17871F64005D62BF /* ResponseCode412.m in Sources */,
+				A4D413C117871F64005D62BF /* ResponseCode500.m in Sources */,
+				A4D413C317871F64005D62BF /* ResponseCode503.m in Sources */,
+				A4D413C517871F64005D62BF /* WebServiceResponseValidator.m in Sources */,
+				A4D413C717871F64005D62BF /* AISWebServiceResponse.m in Sources */,
+				A4D413C917871F64005D62BF /* LegacyHttpResponse.m in Sources */,
+				A4D413CB17871F64005D62BF /* ValidatedAJAXResponse.m in Sources */,
+				A4D413CD17871F64005D62BF /* WebApiResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
