@@ -14,14 +14,15 @@
 
 @interface AISWebServiceRequest : NSObject
 
-@property (strong, nonatomic) NSString				*pandoraURLString;
+@property (strong, nonatomic) NSMutableURLRequest	*urlRequest;
+
+@property (strong, nonatomic) NSString				*urlString;
 @property (assign, nonatomic) BOOL					isProxyURL;
 @property (strong, nonatomic) NSURL					*serviceURL;
 @property (assign, nonatomic) RequestMethod			requestMethod;
 @property (strong, nonatomic) NSMutableArray		*cookies;
-@property (strong, nonatomic) NSMutableDictionary	*postParams;
-@property (strong, nonatomic) NSString				*postString;
-@property (strong, nonatomic) NSString				*queryString;
+
+@property (strong, nonatomic) AISWebServiceResponse	*response;
 
 
 + (id) requestWithURLString:(NSString *)urlString;
@@ -34,21 +35,12 @@
 
 - (id) initWithURLString:(NSString *)urlString dictionary:(NSDictionary *)dictionary;
 
-
 - (id) initWithURLString:(NSString *)urlString;
-
 
 - (void) buildWithDictionary:(NSDictionary *)dictionary;
 
-- (void) buildPostString;
+- (void) submitRequestWithResponseListener:(id<ResponseListener>)responseListener;
 
-- (void) buildGetString:(NSDictionary *)dictionary;
-
-- (void) buildSpecificRequestWithDictionary:(NSDictionary *)dictionary;
-
-//- (id) initWithURLString:(NSString *)urlString requestMethod:(RequestMethod)requestMethod cookie:(NSString *)cookie;
-
-- (void) submitRequestWithRequestType:(WebServiceRequestType)requestType responseListener:(id<ResponseListener>)responseListener;
-
+- (NSString *) buildStringWithDictionary:(NSDictionary *)dictionary;
 
 @end

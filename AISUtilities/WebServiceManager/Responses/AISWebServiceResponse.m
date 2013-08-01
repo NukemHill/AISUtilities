@@ -30,79 +30,13 @@
 
 @implementation AISWebServiceResponse
 
-+ (AISWebServiceResponse *) responseWithRequestType:(WebServiceRequestType)requestType {
-	AISWebServiceResponse *response;
-
-	switch(requestType) {
-//		case loginRequestType:
-//			response = (PandoraLoginResponse *)[[PandoraLoginResponse alloc] init];
-//
-//			break;
-//
-//		case fetchAppUpdateStatusRequestType:
-//			response = (PandoraFetchUpdateStatusResponse *)[[PandoraFetchUpdateStatusResponse alloc] init];
-//			
-//			break;
-//
-//		case fetchStoresRequestType:
-//			response = (PandoraFetchStoresResponse *)[[PandoraFetchStoresResponse alloc] init];
-//
-//			break;
-//
-//		case selectStoreRequestType:
-//			response = (PandoraSelectStoreResponse *)[[PandoraSelectStoreResponse alloc] init];
-//
-//			break;
-//
-//		case fetchFacetsRequestType:
-//			response = (PandoraFetchFacetsResponse *)[[PandoraFetchFacetsResponse alloc] init];
-//
-//			break;
-//
-//		case fetchInventoryRequestType:
-//			response = (PandoraFetchInventoryResponse *)[[PandoraFetchInventoryResponse alloc] init];
-//
-//			break;
-//
-//		case fetchCartRequestType:
-//			response = (PandoraFetchCartResponse *)[[PandoraFetchCartResponse alloc] init];
-//
-//			break;
-//
-//		case fetchCartForCheckoutRequestType:
-//			response = (PandoraCheckoutOptionsResponse *)[[PandoraCheckoutOptionsResponse alloc] init];
-//			
-//			break;
-//
-//		case updateCartRequestType:
-//			response = (PandoraUpdateCartResponse *)[[PandoraUpdateCartResponse alloc] init];
-//
-//			break;
-//
-//		case emptyCartRequestType:
-//			response = (PandoraEmptyCartResponse *)[[PandoraEmptyCartResponse alloc] init];
-//
-//			break;
-//
-//		case checkoutRequestType:
-//			response = (PandoraCheckoutResponse *)[[PandoraCheckoutResponse alloc] init];
-//			
-//			break;
-//
-//		case logoutRequestType:
-//			response = (PandoraLogoutResponse *)[[PandoraLogoutResponse alloc] init];
-//
-//			break;
-
-		default:
-
-			response = [[AISWebServiceResponse alloc] init];
-			
-			break;
-	}
-
-	return response;
-}
+//+ (AISWebServiceResponse *) responseWithRequestGenerator:(id<RequestGenerator>generator) {
+//	AISWebServiceResponse *response;
+//	
+//	if(response) {
+//		response = [generator responseWithRequestType:requestType];
+//	}
+//}
 
 - (id) init {
 	self = [super init];

@@ -30,17 +30,17 @@
 
 @interface AISWebServiceManager : NSObject <ResponseListener>
 
-@property (assign, nonatomic) WebServiceRequestType		requestType;
+@property (assign, nonatomic) int						requestType;
 @property (strong, nonatomic) AISWebServiceRequest		*request;
 @property (strong, nonatomic) id<WebServiceDelegate>	delegate;
 
 
 + (id) serviceWithDictionary: (NSDictionary *)requestFormatDict
-				 requestType: (WebServiceRequestType)requestType
+				 requestType: (int)requestType
 					 baseURL: (NSString *)baseURL;
 
 + (id) serviceWithDictionary: (NSDictionary *)requestFormatDict
-				 requestType: (WebServiceRequestType)requestType
+				 requestType: (int)requestType
 					 baseURL: (NSString *)baseURL
 					 isProxy: (BOOL)isProxy;
 

@@ -10,4 +10,9 @@
 
 @interface WebServicePostRequest : AISWebServiceRequest
 
+@property (strong, nonatomic) NSMutableDictionary	*postParams;
+
+- (void) buildPostString;
+
+
 @end

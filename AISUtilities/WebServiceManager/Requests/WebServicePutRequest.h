@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Applied IS. All rights reserved.
 //
 
-#import "AISWebServiceRequest.h"
+#import "WebServiceGetRequest.h"
 
-@interface WebServicePutRequest : AISWebServiceRequest
+@interface WebServicePutRequest : WebServiceGetRequest
 
 @end

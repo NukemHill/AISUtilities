@@ -8,7 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-#import "WebServiceDefs.h"
+//#import "TestWebServiceDefs.h"
+//#import "WebServiceDefs.h"
 
 
 typedef enum {
@@ -42,13 +43,13 @@ typedef enum {
 
 @property (nonatomic, strong) id<ResponseCode>					responseCodeObject;
 
-@property (nonatomic, assign) WebServiceRequestType				requestType;
+@property (nonatomic, assign) int								requestType;
 
 @property (nonatomic, strong) AISWebServiceResponse				*response;
 
 
 - (id) initWithResponse: (AISWebServiceResponse *)response
-			requestType: (WebServiceRequestType)requestType;
+			requestType: (int)requestType;
 
 + (id<ResponseCode>) createResponseValidatorObject: (AISWebServiceResponse *)response;
 

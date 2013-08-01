@@ -16,21 +16,6 @@ typedef enum {
 	requestDelete
 } RequestMethod;
 
-typedef enum {
-	unknownRequestType = 0,
-	loginRequestType,
-	logoutRequestType,
-	fetchAppUpdateStatusRequestType,
-	fetchCartRequestType,
-	fetchStoresRequestType,
-	selectStoreRequestType,
-	fetchFacetsRequestType,
-	fetchInventoryRequestType,
-	emptyCartRequestType,
-	updateCartRequestType,
-	fetchCartForCheckoutRequestType,
-	checkoutRequestType
-} WebServiceRequestType;
 
 #define COOKIES [[NSHTTPCookieStorage sharedHTTPCookieStorage] cookies]
 

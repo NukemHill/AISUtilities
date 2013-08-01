@@ -30,6 +30,8 @@ typedef enum {
 
 @protocol WebApiDataParser;
 
+//@protocol ResponseGenerator;
+
 
 @interface AISWebServiceResponse : NSObject <NSURLConnectionDelegate>
 
@@ -56,8 +58,6 @@ typedef enum {
 @property (nonatomic, strong) id							jsonData;
 
 
-+ (AISWebServiceResponse *) responseWithRequestType:(WebServiceRequestType)requestType;
-
 - (void) parseResponse;
 
 - (void) responseInfo:(int)responseInfoTypes;
@@ -74,9 +74,11 @@ typedef enum {
 
 @end
 
+
 @protocol LegacyHttpProtocolDataParser <NSObject>
 
 @end
+
 
 @protocol ValidatedAjaxDataParser <NSObject>
 
@@ -85,7 +87,14 @@ typedef enum {
 
 @end
 
+
 @protocol WebApiDataParser <NSObject>
 
 @end
+
+//@protocol ResponseGenerator <NSObject>
+//
+//- (AISWebServiceResponse *) initWithRequestType:(id)requestType;
+//
+//@end
 

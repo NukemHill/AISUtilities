@@ -10,4 +10,7 @@
 
 @interface WebServiceGetRequest : AISWebServiceRequest
 
+@property (strong, nonatomic) NSString				*queryString;
+
+
 @end

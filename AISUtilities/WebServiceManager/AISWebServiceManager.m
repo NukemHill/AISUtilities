@@ -34,102 +34,29 @@
 
 
 + (id) serviceWithDictionary: (NSDictionary *)requestFormatDict
-				 requestType: (WebServiceRequestType)wsRequestType
+				 requestType: (int)wsRequestType
 					 baseURL: (NSString *)baseURL {
 	//
-	[Timer resetTime];
-	
-	AISWebServiceManager *manager = [[AISWebServiceManager alloc] init];
+	NSString *methodName = [NSString stringWithFormat:@"%s",__PRETTY_FUNCTION__];
 
-	if(manager) {
-		manager.requestType = wsRequestType;
+	NSException	*exception = [self incompleteExceptionWithMethod:methodName];
 
-		switch (wsRequestType) {
-//			case loginRequestType:
-//				manager.request = [PandoraLoginRequest requestWithURLString: baseURL
-//																 dictionary: requestFormatDict];
-//				
-//				break;
-//
-//			case logoutRequestType:
-//				manager.request = [[PandoraLogoutRequest alloc] initWithURLString: baseURL
-//																	   dictionary: requestFormatDict];
-//
-//				break;
-//
-//			case fetchAppUpdateStatusRequestType:
-//				manager.request = [[PandoraFetchUpdateStatusRequest alloc] initWithURLString: baseURL
-//																				  dictionary: requestFormatDict];
-//				
-//				break;
-//
-//			case fetchCartRequestType:
-//				manager.request = [[PandoraFetchCartRequest alloc] initWithURLString: baseURL
-//																		  dictionary: requestFormatDict];
-//
-//				break;
-//				
-//			case fetchStoresRequestType:
-//				manager.request = [[PandoraGetStoresRequest alloc] initWithURLString: baseURL
-//																		  dictionary: requestFormatDict];
-//
-//				break;
-//				
-//			case selectStoreRequestType:
-//				manager.request = [[PandoraSelectStoreRequest alloc] initWithURLString: baseURL
-//																			dictionary: requestFormatDict];
-//
-//				break;
-//
-//			case fetchFacetsRequestType:
-//				manager.request = [[PandoraFetchFacetsRequest alloc] initWithURLString: baseURL
-//																			dictionary: requestFormatDict];
-//
-//				break;
-//
-//			case fetchInventoryRequestType:
-//				manager.request = [[PandoraFetchInventoryRequest alloc] initWithURLString: baseURL
-//																			   dictionary: requestFormatDict];
-//
-//				break;
-//
-//			case emptyCartRequestType:
-//				manager.request = [[PandoraEmptyCartRequest alloc] initWithURLString: baseURL
-//																		  dictionary: requestFormatDict];
-//
-//				break;
-//
-//			case updateCartRequestType:
-//				manager.request = [[PandoraUpdateCartRequest alloc] initWithURLString: baseURL
-//																		   dictionary: requestFormatDict];
-//
-//				break;
-//				
-//			case fetchCartForCheckoutRequestType:
-//				manager.request = [[PandoraCheckoutOptionsRequest alloc] initWithURLString: baseURL
-//																				dictionary: requestFormatDict];
-//
-//				break;
-//
-//			case checkoutRequestType:
-//				manager.request = [PandoraCheckoutRequest requestWithURLString: baseURL
-//																	dictionary: requestFormatDict];
-//
-//				break;
+	@throw exception;
 
-			default:
-				break;
-		}
-	}
+	return nil;
 
-	return manager;
 }
 
 + (id) serviceWithDictionary: (NSDictionary *)requestFormatDict
-				 requestType: (WebServiceRequestType)requestType
+				 requestType: (int)requestType
 					 baseURL: (NSString *)baseURL
 					 isProxy: (BOOL)isProxy {
 	//
+	NSString *methodName = [NSString stringWithFormat:@"%s",__PRETTY_FUNCTION__];
+
+	NSException	*exception = [self incompleteExceptionWithMethod:methodName];
+
+	@throw exception;
 
 	return nil;
 }
@@ -137,18 +64,18 @@
 
 
 - (void) submitRequest {
-	[self.request submitRequestWithRequestType:self.requestType responseListener:self];
+	[self.request submitRequestWithResponseListener:self];
 }
 
 - (void) responseComplete:(AISWebServiceResponse *)response {
-//	[response responseInfo:ResponseHeaderFields + ResponseCookies];
-
-	WebServiceResponseValidator *responseValidator = [[WebServiceResponseValidator alloc] initWithResponse: response
-																							   requestType: self.requestType];
-
-	response.responseValidator = responseValidator;
-
-	[self.delegate webServiceResponse:response];
+////	[response responseInfo:ResponseHeaderFields + ResponseCookies];
+//
+//	WebServiceResponseValidator *responseValidator = [[WebServiceResponseValidator alloc] initWithResponse: response
+//																							   requestType: self.requestType];
+//
+//	response.responseValidator = responseValidator;
+//
+//	[self.delegate webServiceResponse:response];
 }
 
 - (void) responseFailed:(AISWebServiceResponse *)response {

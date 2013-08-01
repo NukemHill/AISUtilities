@@ -26,98 +26,27 @@
 @implementation WebServiceResponseValidator
 
 - (id) initWithResponse: (AISWebServiceResponse *)response
-			requestType: (WebServiceRequestType)requestType {
+			requestType: (int)requestType {
 	//
+
+	// semi-abstract method; must be implemented in subclass
 	self = [super init];
 
 	if(self) {
 		_requestType = requestType;
-		
-		_responseCodeObject = [WebServiceResponseValidator createResponseValidatorObject: response];
-		
+
+		_responseCodeObject = [WebServiceResponseValidator createResponseValidatorObject:response];
+
 		_validResponse = YES;
 
 		_responseCodeObject.controller = self;
 
 		[_responseCodeObject validateResponse];
-
-		NSString *title;
-
-/**
- 1. Web calls
- 2. AJAX calls
- 3. Web API
- */
-		switch (requestType) {
-//			case loginRequestType:
-//				title = NSLocalizedString(@"loginValidatorDialogTitle", @"Error Logging In");
-//
-//				break;
-//
-//			case logoutRequestType:
-//				title = NSLocalizedString(@"logoutValidatorDialogTitle", @"Error Logging Out");
-//
-//				break;
-//				
-//			case fetchAppUpdateStatusRequestType:
-//				title = NSLocalizedString(@"updateAppValidatorDialogTitle", @"Error Updating App");
-//
-//				break;
-//
-//			case selectStoreRequestType:
-//				title = NSLocalizedString(@"selectingStoreValidatorDialogTitle", @"Error Selecting Store");
-//
-//				break;
-//				
-//			case fetchCartRequestType:
-//				title = NSLocalizedString(@"loadingCartValidatorDialogTitle", @"Error Loading Cart");
-//
-//				break;
-//				
-//			case fetchStoresRequestType:
-//				title = NSLocalizedString(@"loadingStoresValidatorDialogTitle", @"Error Loading Store List");
-//
-//				break;
-//				
-//			case fetchInventoryRequestType:
-//				title = NSLocalizedString(@"loadingProductsValidatorDialogTitle", @"Error Loading Products");
-//
-//				break;
-//				
-//			case updateCartRequestType:
-//				title = NSLocalizedString(@"updatingCartValidatorDialogTitle", @"Error Updating Cart");
-//
-//				break;
-//				
-//			case fetchCartForCheckoutRequestType:
-//				title = NSLocalizedString(@"loadingCheckoutOptionsValidatorDialogTitle", @"Error Loading Checkout Options");
-//
-//				break;
-//				
-//			case fetchFacetsRequestType:
-//				title = NSLocalizedString(@"loadingFacetsValidatorDialogTitle", @"Error Loading Filter Options");
-//
-//				break;
-//				
-//			case checkoutRequestType:
-//				title = NSLocalizedString(@"checkingOutValidatorDialogTitle", @"Error Checking Out");
-//
-//				break;
-//				
-//			case emptyCartRequestType:
-//				title = NSLocalizedString(@"emptyingCartValidatorDialogTitle", @"Error Emptying Cart");
-//
-//				break;
-
-			default:
-				break;
-		}
-
-		self.validatedResponseTitle = title;
 	}
 
 	return self;
 }
+
 
 + (id<ResponseCode>) createResponseValidatorObject: (AISWebServiceResponse *)response {
 	//
@@ -179,96 +108,10 @@
 }
 
 - (NSString *) errorMessageWithCoreMessage:(NSString *)coreMsg {
-	NSString *errorMessage;
+	// abstract method;
 
-	NSString *function = @"";
-	
-	switch (self.requestType) {
-//		case loginRequestType: {
-//			function = NSLocalizedString(@"loginValidatorFunctionName", @"Login");
-//		}
-//			break;
-//
-//		case logoutRequestType: {
-//			function = NSLocalizedString(@"logoutValidatorFunctionName", @"Logout");
-//		}
-//			break;
-//
-//		case fetchAppUpdateStatusRequestType:
-//			function = NSLocalizedString(@"fetchAppUpdateValidatorFunctionName", @"App Update");
-//
-//			break;
-//
-//		case fetchCartRequestType: {
-//			function = NSLocalizedString(@"loadCartValidatorFunctionName", @"Load Shopping Cart");
-//		}
-//			break;
-//
-//		case fetchStoresRequestType: {
-//			function = NSLocalizedString(@"loadStoresValidatorFunctionName", @"Load Stores");
-//		}
-//			break;
-//
-//		case selectStoreRequestType: {
-//			function = NSLocalizedString(@"selectStoresValidatorFunctionName", @"Select Store");
-//		}
-//			break;
-//
-//		case fetchFacetsRequestType: {
-//			function = NSLocalizedString(@"loadFiltersValidatorFunctionName", @"Load Search Filters");;
-//		}
-//			break;
-//
-//		case fetchInventoryRequestType: {
-//			function = NSLocalizedString(@"loadProductsValidatorFunctionName", @"Load Products");
-//		}
-//			break;
-//
-//		case emptyCartRequestType: {
-//			function = NSLocalizedString(@"emptyCartValidatorFunctionName", @"Empty Cart");
-//		}
-//			break;
-//
-//		case updateCartRequestType: {
-//			function = NSLocalizedString(@"emptyCartValidatorFunctionName", @"Update Cart");
-//		}
-//			break;
-//
-//		case fetchCartForCheckoutRequestType: {
-//			function = NSLocalizedString(@"loadStoreOptionsValidatorFunctionName", @"Load Store Checkout Options");
-//		}
-//			break;
-//
-//		case checkoutRequestType: {
-//			function = NSLocalizedString(@"checkoutValidatorFunctionName", @"Checkout");
-//		}
-//			break;
+	return nil;
 
-	   default: {
-		   function = NSLocalizedString(@"unknownValidatorFunctionName", @"Unknown Function");
-	   }
-			break;
-	}
-
-	errorMessage = [NSString stringWithFormat:@"%@ (%@)", coreMsg, function];
-
-	NSString *responseErrorMessage;
-
-	NSError *error;
-
-	NSDictionary *respDict = [NSJSONSerialization JSONObjectWithData: self.response.rawData
-															 options: kNilOptions
-															   error: &error];
-
-	if(respDict) {
-		responseErrorMessage = [respDict valueForKey:@"message"];
-
-		NSString *headerStr = NSLocalizedString(@"responseErrorHeader", @"Response Error");
-		
-		errorMessage = [NSString stringWithFormat:@"%@ %@: %@", errorMessage, headerStr, responseErrorMessage];
-	}
-
-	return errorMessage;
 }
 
 
