@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A421F56017A165B9001FCC54 /* AISMenuController.h in Headers */ = {isa = PBXBuildFile; fileRef = A421F55617A165B9001FCC54 /* AISMenuController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A421F56117A165B9001FCC54 /* AISMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = A421F55717A165B9001FCC54 /* AISMenuController.m */; };
+		A421F56217A165B9001FCC54 /* AISMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = A421F55717A165B9001FCC54 /* AISMenuController.m */; };
+		A421F56317A165B9001FCC54 /* UIColor+ColorToImage.h in Headers */ = {isa = PBXBuildFile; fileRef = A421F55817A165B9001FCC54 /* UIColor+ColorToImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A421F56417A165B9001FCC54 /* UIColor+ColorToImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A421F55917A165B9001FCC54 /* UIColor+ColorToImage.m */; };
+		A421F56517A165B9001FCC54 /* UIColor+ColorToImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A421F55917A165B9001FCC54 /* UIColor+ColorToImage.m */; };
+		A421F56617A165B9001FCC54 /* UIColor+HexToRGB.h in Headers */ = {isa = PBXBuildFile; fileRef = A421F55A17A165B9001FCC54 /* UIColor+HexToRGB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A421F56717A165B9001FCC54 /* UIColor+HexToRGB.m in Sources */ = {isa = PBXBuildFile; fileRef = A421F55B17A165B9001FCC54 /* UIColor+HexToRGB.m */; };
+		A421F56817A165B9001FCC54 /* UIColor+HexToRGB.m in Sources */ = {isa = PBXBuildFile; fileRef = A421F55B17A165B9001FCC54 /* UIColor+HexToRGB.m */; };
+		A421F56917A165B9001FCC54 /* UIColor+NormalizedRGB.h in Headers */ = {isa = PBXBuildFile; fileRef = A421F55C17A165B9001FCC54 /* UIColor+NormalizedRGB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A421F56A17A165B9001FCC54 /* UIColor+NormalizedRGB.m in Sources */ = {isa = PBXBuildFile; fileRef = A421F55D17A165B9001FCC54 /* UIColor+NormalizedRGB.m */; };
+		A421F56B17A165B9001FCC54 /* UIColor+NormalizedRGB.m in Sources */ = {isa = PBXBuildFile; fileRef = A421F55D17A165B9001FCC54 /* UIColor+NormalizedRGB.m */; };
+		A421F56C17A165B9001FCC54 /* UIImage+ImageUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A421F55E17A165B9001FCC54 /* UIImage+ImageUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A421F56D17A165B9001FCC54 /* UIImage+ImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A421F55F17A165B9001FCC54 /* UIImage+ImageUtils.m */; };
+		A421F56E17A165B9001FCC54 /* UIImage+ImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A421F55F17A165B9001FCC54 /* UIImage+ImageUtils.m */; };
+		A421F59717A17CAC001FCC54 /* AISBaseMenuTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A421F59517A17CAC001FCC54 /* AISBaseMenuTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A421F59817A17CAC001FCC54 /* AISBaseMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A421F59617A17CAC001FCC54 /* AISBaseMenuTableViewCell.m */; };
+		A421F59917A17CAC001FCC54 /* AISBaseMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A421F59617A17CAC001FCC54 /* AISBaseMenuTableViewCell.m */; };
+		A485955D17AAA386002FC15B /* AISRootDataCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = A485955817AAA386002FC15B /* AISRootDataCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A485955E17AAA386002FC15B /* AISRootDataCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = A485955917AAA386002FC15B /* AISRootDataCollection.m */; };
+		A485955F17AAA386002FC15B /* AISRootDataCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = A485955917AAA386002FC15B /* AISRootDataCollection.m */; };
+		A485956017AAA386002FC15B /* AISRootDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A485955B17AAA386002FC15B /* AISRootDataManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A485956117AAA386002FC15B /* AISRootDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A485955C17AAA386002FC15B /* AISRootDataManager.m */; };
+		A485956217AAA386002FC15B /* AISRootDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A485955C17AAA386002FC15B /* AISRootDataManager.m */; };
 		A4B37FFD16D2AC7A00369C55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B37FFC16D2AC7A00369C55 /* Foundation.framework */; };
 		A4B3800C16D2AC7A00369C55 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B3800B16D2AC7A00369C55 /* SenTestingKit.framework */; };
 		A4B3800F16D2AC7A00369C55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B37FFC16D2AC7A00369C55 /* Foundation.framework */; };
@@ -78,14 +102,6 @@
 		A4F6029117821FCF002E96E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F6029017821FCF002E96E3 /* CoreGraphics.framework */; };
 		A4F6031717833947002E96E3 /* TimerUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F6030D17833946002E96E3 /* TimerUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4F6031817833947002E96E3 /* TimerUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F6030E17833947002E96E3 /* TimerUtility.m */; };
-		A4F6031917833947002E96E3 /* UIColor+ColorToImage.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F6030F17833947002E96E3 /* UIColor+ColorToImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4F6031A17833947002E96E3 /* UIColor+ColorToImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F6031017833947002E96E3 /* UIColor+ColorToImage.m */; };
-		A4F6031B17833947002E96E3 /* UIColor+HexToRGB.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F6031117833947002E96E3 /* UIColor+HexToRGB.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4F6031C17833947002E96E3 /* UIColor+HexToRGB.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F6031217833947002E96E3 /* UIColor+HexToRGB.m */; };
-		A4F6031D17833947002E96E3 /* UIColor+NormalizedRGB.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F6031317833947002E96E3 /* UIColor+NormalizedRGB.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4F6031E17833947002E96E3 /* UIColor+NormalizedRGB.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F6031417833947002E96E3 /* UIColor+NormalizedRGB.m */; };
-		A4F6031F17833947002E96E3 /* UIImage+ImageUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A4F6031517833947002E96E3 /* UIImage+ImageUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4F6032017833947002E96E3 /* UIImage+ImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F6031617833947002E96E3 /* UIImage+ImageUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +127,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A421F55617A165B9001FCC54 /* AISMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISMenuController.h; sourceTree = "<group>"; };
+		A421F55717A165B9001FCC54 /* AISMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISMenuController.m; sourceTree = "<group>"; };
+		A421F55817A165B9001FCC54 /* UIColor+ColorToImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorToImage.h"; sourceTree = "<group>"; };
+		A421F55917A165B9001FCC54 /* UIColor+ColorToImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorToImage.m"; sourceTree = "<group>"; };
+		A421F55A17A165B9001FCC54 /* UIColor+HexToRGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexToRGB.h"; sourceTree = "<group>"; };
+		A421F55B17A165B9001FCC54 /* UIColor+HexToRGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexToRGB.m"; sourceTree = "<group>"; };
+		A421F55C17A165B9001FCC54 /* UIColor+NormalizedRGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NormalizedRGB.h"; sourceTree = "<group>"; };
+		A421F55D17A165B9001FCC54 /* UIColor+NormalizedRGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NormalizedRGB.m"; sourceTree = "<group>"; };
+		A421F55E17A165B9001FCC54 /* UIImage+ImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageUtils.h"; sourceTree = "<group>"; };
+		A421F55F17A165B9001FCC54 /* UIImage+ImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageUtils.m"; sourceTree = "<group>"; };
+		A421F59517A17CAC001FCC54 /* AISBaseMenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISBaseMenuTableViewCell.h; sourceTree = "<group>"; };
+		A421F59617A17CAC001FCC54 /* AISBaseMenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISBaseMenuTableViewCell.m; sourceTree = "<group>"; };
+		A485955817AAA386002FC15B /* AISRootDataCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISRootDataCollection.h; sourceTree = "<group>"; };
+		A485955917AAA386002FC15B /* AISRootDataCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISRootDataCollection.m; sourceTree = "<group>"; };
+		A485955B17AAA386002FC15B /* AISRootDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISRootDataManager.h; sourceTree = "<group>"; };
+		A485955C17AAA386002FC15B /* AISRootDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISRootDataManager.m; sourceTree = "<group>"; };
 		A4B37FF916D2AC7900369C55 /* libAISUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAISUtilities.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B37FFC16D2AC7A00369C55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A4B3800016D2AC7A00369C55 /* AISUtilities-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AISUtilities-Prefix.pch"; sourceTree = "<group>"; };
@@ -185,14 +217,6 @@
 		A4F6029017821FCF002E96E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A4F6030D17833946002E96E3 /* TimerUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerUtility.h; sourceTree = "<group>"; };
 		A4F6030E17833947002E96E3 /* TimerUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerUtility.m; sourceTree = "<group>"; };
-		A4F6030F17833947002E96E3 /* UIColor+ColorToImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorToImage.h"; sourceTree = "<group>"; };
-		A4F6031017833947002E96E3 /* UIColor+ColorToImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorToImage.m"; sourceTree = "<group>"; };
-		A4F6031117833947002E96E3 /* UIColor+HexToRGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexToRGB.h"; sourceTree = "<group>"; };
-		A4F6031217833947002E96E3 /* UIColor+HexToRGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexToRGB.m"; sourceTree = "<group>"; };
-		A4F6031317833947002E96E3 /* UIColor+NormalizedRGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NormalizedRGB.h"; sourceTree = "<group>"; };
-		A4F6031417833947002E96E3 /* UIColor+NormalizedRGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NormalizedRGB.m"; sourceTree = "<group>"; };
-		A4F6031517833947002E96E3 /* UIImage+ImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageUtils.h"; sourceTree = "<group>"; };
-		A4F6031617833947002E96E3 /* UIImage+ImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageUtils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +243,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A421F55517A165B9001FCC54 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A421F55617A165B9001FCC54 /* AISMenuController.h */,
+				A421F55717A165B9001FCC54 /* AISMenuController.m */,
+				A421F59517A17CAC001FCC54 /* AISBaseMenuTableViewCell.h */,
+				A421F59617A17CAC001FCC54 /* AISBaseMenuTableViewCell.m */,
+				A421F55817A165B9001FCC54 /* UIColor+ColorToImage.h */,
+				A421F55917A165B9001FCC54 /* UIColor+ColorToImage.m */,
+				A421F55A17A165B9001FCC54 /* UIColor+HexToRGB.h */,
+				A421F55B17A165B9001FCC54 /* UIColor+HexToRGB.m */,
+				A421F55C17A165B9001FCC54 /* UIColor+NormalizedRGB.h */,
+				A421F55D17A165B9001FCC54 /* UIColor+NormalizedRGB.m */,
+				A421F55E17A165B9001FCC54 /* UIImage+ImageUtils.h */,
+				A421F55F17A165B9001FCC54 /* UIImage+ImageUtils.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A485955617AAA386002FC15B /* Managed Objects */ = {
+			isa = PBXGroup;
+			children = (
+				A485955717AAA386002FC15B /* Data */,
+				A485955A17AAA386002FC15B /* Managers */,
+			);
+			path = "Managed Objects";
+			sourceTree = "<group>";
+		};
+		A485955717AAA386002FC15B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A485955817AAA386002FC15B /* AISRootDataCollection.h */,
+				A485955917AAA386002FC15B /* AISRootDataCollection.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A485955A17AAA386002FC15B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				A485955B17AAA386002FC15B /* AISRootDataManager.h */,
+				A485955C17AAA386002FC15B /* AISRootDataManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		A4B37FF016D2AC7900369C55 = {
 			isa = PBXGroup;
 			children = (
@@ -253,6 +323,8 @@
 			isa = PBXGroup;
 			children = (
 				A4B380DF16D3C6C700369C55 /* General */,
+				A485955617AAA386002FC15B /* Managed Objects */,
+				A421F55517A165B9001FCC54 /* UI */,
 				A4D4137517871F63005D62BF /* WebServiceManager */,
 				A4B3800116D2AC7A00369C55 /* AISUtilities.h */,
 				A4B37FFF16D2AC7A00369C55 /* Supporting Files */,
@@ -294,14 +366,6 @@
 				A4BAAF9917833A4D003EEFA1 /* NSString+URLEncoding.m */,
 				A4F6030D17833946002E96E3 /* TimerUtility.h */,
 				A4F6030E17833947002E96E3 /* TimerUtility.m */,
-				A4F6030F17833947002E96E3 /* UIColor+ColorToImage.h */,
-				A4F6031017833947002E96E3 /* UIColor+ColorToImage.m */,
-				A4F6031117833947002E96E3 /* UIColor+HexToRGB.h */,
-				A4F6031217833947002E96E3 /* UIColor+HexToRGB.m */,
-				A4F6031317833947002E96E3 /* UIColor+NormalizedRGB.h */,
-				A4F6031417833947002E96E3 /* UIColor+NormalizedRGB.m */,
-				A4F6031517833947002E96E3 /* UIImage+ImageUtils.h */,
-				A4F6031617833947002E96E3 /* UIImage+ImageUtils.m */,
 				A4B380EE16D3C6C700369C55 /* SynthesizeSingleton.h */,
 				A4B380E016D3C6C700369C55 /* DebugLog.h */,
 				A4B380E116D3C6C700369C55 /* DebugLog.m */,
@@ -324,14 +388,14 @@
 		A4D4137517871F63005D62BF /* WebServiceManager */ = {
 			isa = PBXGroup;
 			children = (
+				A4D413A317871F63005D62BF /* WebServiceDefs.h */,
 				A4D4137617871F63005D62BF /* AISWebServiceManager.h */,
 				A4D4137717871F63005D62BF /* AISWebServiceManager.m */,
 				A4D4137817871F63005D62BF /* ImageDownloader.h */,
 				A4D4137917871F63005D62BF /* ImageDownloader.m */,
 				A4D4137A17871F63005D62BF /* Requests */,
-				A4D4138517871F63005D62BF /* Response Validators */,
 				A4D4139A17871F63005D62BF /* Responses */,
-				A4D413A317871F63005D62BF /* WebServiceDefs.h */,
+				A4D4138517871F63005D62BF /* Response Validators */,
 			);
 			path = WebServiceManager;
 			sourceTree = "<group>";
@@ -341,14 +405,14 @@
 			children = (
 				A4D4137B17871F63005D62BF /* AISWebServiceRequest.h */,
 				A4D4137C17871F63005D62BF /* AISWebServiceRequest.m */,
-				A4D4137D17871F63005D62BF /* WebServiceDeleteRequest.h */,
-				A4D4137E17871F63005D62BF /* WebServiceDeleteRequest.m */,
 				A4D4137F17871F63005D62BF /* WebServiceGetRequest.h */,
 				A4D4138017871F63005D62BF /* WebServiceGetRequest.m */,
 				A4D4138117871F63005D62BF /* WebServicePostRequest.h */,
 				A4D4138217871F63005D62BF /* WebServicePostRequest.m */,
 				A4D4138317871F63005D62BF /* WebServicePutRequest.h */,
 				A4D4138417871F63005D62BF /* WebServicePutRequest.m */,
+				A4D4137D17871F63005D62BF /* WebServiceDeleteRequest.h */,
+				A4D4137E17871F63005D62BF /* WebServiceDeleteRequest.m */,
 			);
 			path = Requests;
 			sourceTree = "<group>";
@@ -409,21 +473,26 @@
 				A4B380F916D3C6C700369C55 /* NSDictionary+ObjectAtIndex.h in Headers */,
 				A4B380FB16D3C6C700369C55 /* NSObject+IncompleteException.h in Headers */,
 				A4B380FD16D3C6C700369C55 /* NSString+Trim.h in Headers */,
+				A421F56617A165B9001FCC54 /* UIColor+HexToRGB.h in Headers */,
+				A421F56917A165B9001FCC54 /* UIColor+NormalizedRGB.h in Headers */,
 				A4B380FF16D3C6C700369C55 /* SynthesizeSingleton.h in Headers */,
+				A421F56C17A165B9001FCC54 /* UIImage+ImageUtils.h in Headers */,
 				A4B3810616D3CA1500369C55 /* NSDecimalNumber+Price.h in Headers */,
 				A4F6031717833947002E96E3 /* TimerUtility.h in Headers */,
-				A4F6031917833947002E96E3 /* UIColor+ColorToImage.h in Headers */,
-				A4F6031B17833947002E96E3 /* UIColor+HexToRGB.h in Headers */,
-				A4F6031D17833947002E96E3 /* UIColor+NormalizedRGB.h in Headers */,
-				A4F6031F17833947002E96E3 /* UIImage+ImageUtils.h in Headers */,
 				A4BAAF9A17833A4D003EEFA1 /* NSString+URLEncoding.h in Headers */,
 				A4D413A417871F63005D62BF /* AISWebServiceManager.h in Headers */,
 				A4D413A617871F63005D62BF /* ImageDownloader.h in Headers */,
+				A4D413CE17871F64005D62BF /* WebServiceDefs.h in Headers */,
 				A4D413A817871F63005D62BF /* AISWebServiceRequest.h in Headers */,
-				A4D413AA17871F63005D62BF /* WebServiceDeleteRequest.h in Headers */,
 				A4D413AC17871F64005D62BF /* WebServiceGetRequest.h in Headers */,
 				A4D413AE17871F64005D62BF /* WebServicePostRequest.h in Headers */,
 				A4D413B017871F64005D62BF /* WebServicePutRequest.h in Headers */,
+				A4D413AA17871F63005D62BF /* WebServiceDeleteRequest.h in Headers */,
+				A4D413C617871F64005D62BF /* AISWebServiceResponse.h in Headers */,
+				A4D413C817871F64005D62BF /* LegacyHttpResponse.h in Headers */,
+				A4D413CC17871F64005D62BF /* WebApiResponse.h in Headers */,
+				A4D413CA17871F64005D62BF /* ValidatedAJAXResponse.h in Headers */,
+				A4D413C417871F64005D62BF /* WebServiceResponseValidator.h in Headers */,
 				A4D413B217871F64005D62BF /* ResponseCode200.h in Headers */,
 				A4D413B417871F64005D62BF /* ResponseCode302.h in Headers */,
 				A4D413B617871F64005D62BF /* ResponseCode401.h in Headers */,
@@ -433,12 +502,11 @@
 				A4D413BE17871F64005D62BF /* ResponseCode412.h in Headers */,
 				A4D413C017871F64005D62BF /* ResponseCode500.h in Headers */,
 				A4D413C217871F64005D62BF /* ResponseCode503.h in Headers */,
-				A4D413C417871F64005D62BF /* WebServiceResponseValidator.h in Headers */,
-				A4D413C617871F64005D62BF /* AISWebServiceResponse.h in Headers */,
-				A4D413C817871F64005D62BF /* LegacyHttpResponse.h in Headers */,
-				A4D413CA17871F64005D62BF /* ValidatedAJAXResponse.h in Headers */,
-				A4D413CC17871F64005D62BF /* WebApiResponse.h in Headers */,
-				A4D413CE17871F64005D62BF /* WebServiceDefs.h in Headers */,
+				A421F56317A165B9001FCC54 /* UIColor+ColorToImage.h in Headers */,
+				A421F56017A165B9001FCC54 /* AISMenuController.h in Headers */,
+				A421F59717A17CAC001FCC54 /* AISBaseMenuTableViewCell.h in Headers */,
+				A485955D17AAA386002FC15B /* AISRootDataCollection.h in Headers */,
+				A485956017AAA386002FC15B /* AISRootDataManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,12 +615,9 @@
 				A4B380FA16D3C6C700369C55 /* NSDictionary+ObjectAtIndex.m in Sources */,
 				A4B380FC16D3C6C700369C55 /* NSObject+IncompleteException.m in Sources */,
 				A4B380FE16D3C6C700369C55 /* NSString+Trim.m in Sources */,
+				A421F56A17A165B9001FCC54 /* UIColor+NormalizedRGB.m in Sources */,
 				A4B3810716D3CA1500369C55 /* NSDecimalNumber+Price.m in Sources */,
 				A4F6031817833947002E96E3 /* TimerUtility.m in Sources */,
-				A4F6031A17833947002E96E3 /* UIColor+ColorToImage.m in Sources */,
-				A4F6031C17833947002E96E3 /* UIColor+HexToRGB.m in Sources */,
-				A4F6031E17833947002E96E3 /* UIColor+NormalizedRGB.m in Sources */,
-				A4F6032017833947002E96E3 /* UIImage+ImageUtils.m in Sources */,
 				A4BAAF9B17833A4D003EEFA1 /* NSString+URLEncoding.m in Sources */,
 				A4D413A517871F63005D62BF /* AISWebServiceManager.m in Sources */,
 				A4D413A717871F63005D62BF /* ImageDownloader.m in Sources */,
@@ -565,16 +630,23 @@
 				A4D413B517871F64005D62BF /* ResponseCode302.m in Sources */,
 				A4D413B717871F64005D62BF /* ResponseCode401.m in Sources */,
 				A4D413B917871F64005D62BF /* ResponseCode403.m in Sources */,
+				A421F59817A17CAC001FCC54 /* AISBaseMenuTableViewCell.m in Sources */,
+				A421F56117A165B9001FCC54 /* AISMenuController.m in Sources */,
 				A4D413BB17871F64005D62BF /* ResponseCode404.m in Sources */,
 				A4D413BD17871F64005D62BF /* ResponseCode408.m in Sources */,
 				A4D413BF17871F64005D62BF /* ResponseCode412.m in Sources */,
+				A421F56D17A165B9001FCC54 /* UIImage+ImageUtils.m in Sources */,
 				A4D413C117871F64005D62BF /* ResponseCode500.m in Sources */,
 				A4D413C317871F64005D62BF /* ResponseCode503.m in Sources */,
 				A4D413C517871F64005D62BF /* WebServiceResponseValidator.m in Sources */,
 				A4D413C717871F64005D62BF /* AISWebServiceResponse.m in Sources */,
 				A4D413C917871F64005D62BF /* LegacyHttpResponse.m in Sources */,
+				A421F56717A165B9001FCC54 /* UIColor+HexToRGB.m in Sources */,
 				A4D413CB17871F64005D62BF /* ValidatedAJAXResponse.m in Sources */,
+				A421F56417A165B9001FCC54 /* UIColor+ColorToImage.m in Sources */,
 				A4D413CD17871F64005D62BF /* WebApiResponse.m in Sources */,
+				A485955E17AAA386002FC15B /* AISRootDataCollection.m in Sources */,
+				A485956117AAA386002FC15B /* AISRootDataManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,7 +654,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A421F59917A17CAC001FCC54 /* AISBaseMenuTableViewCell.m in Sources */,
+				A421F56B17A165B9001FCC54 /* UIColor+NormalizedRGB.m in Sources */,
+				A421F56817A165B9001FCC54 /* UIColor+HexToRGB.m in Sources */,
+				A421F56217A165B9001FCC54 /* AISMenuController.m in Sources */,
+				A421F56E17A165B9001FCC54 /* UIImage+ImageUtils.m in Sources */,
+				A421F56517A165B9001FCC54 /* UIColor+ColorToImage.m in Sources */,
 				A4B3801B16D2AC7A00369C55 /* AISUtilitiesTests.m in Sources */,
+				A485955F17AAA386002FC15B /* AISRootDataCollection.m in Sources */,
+				A485956217AAA386002FC15B /* AISRootDataManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
